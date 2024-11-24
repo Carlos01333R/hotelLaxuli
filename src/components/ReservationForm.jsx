@@ -48,7 +48,7 @@ const ReservationForm = () => {
       name_billing: formData.firstName,
       mobilephone_billing: formData.phone,
       // URL de retorno
-      response: "https://tu-sitio.com/reserva-exitosa",
+      response: "https://hotel-laxuli-2zmw.vercel.app/responde",
       confirmation: "https://tu-backend.com/confirmacion-pago",
       method: "GET", // Método de respuesta
     };
